@@ -10,13 +10,7 @@ const projects = [
     image: "project1.jpg",
     link: "https://github.com/Bhavya-2704/INVOICELY-Retail-Billing-Software-",
   },
-  {
-    title: "Food Delivey ",
-    description:
-      "Food delivery app",
-    image: "foodapp.jpg",
-    link: "",
-  },
+ 
   
 ];
 

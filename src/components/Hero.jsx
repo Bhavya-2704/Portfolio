@@ -4,7 +4,7 @@ import { motion } from 'framer-motion';
 
 const Hero = () => {
     return (
-        <section className="relative bg-gradient-to-r from-[#01504d] to-[#2a9776] text-white py-10 overflow-hidden">
+        <section className="relative bg-gradient-to-r from-[#ffffff] to-[#ffffff] text-black py-10 overflow-hidden">
             <div className="max-w-7xl mx-auto px-4 sm:py-10 sm:px-6 lg:px-8 flex flex-col-reverse gap-5 sm:flex-row lg:items-center lg:justify-between">
                 {/* Text Content */}
                 <motion.div 
@@ -18,7 +18,7 @@ const Hero = () => {
                         <br />
                         Creative Developer & Innovator
                     </h1>
-                    <p className="mt-6 text-base sm:text-lg text-gray-200 max-w-xl mx-auto lg:mx-0">
+                    <p className="mt-6 text-base sm:text-lg text-black-200 max-w-xl mx-auto lg:mx-0">
                         Crafting immersive digital experiences that blend creativity and technology. Let's build the future together.
                     </p>
 
