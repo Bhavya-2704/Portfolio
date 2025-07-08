@@ -28,6 +28,8 @@ const Navbar = () => {
           <Link to="/tech-stack" className="hover:text-[#6cbda4]">Tech Stack</Link>
           <Link to="/projects" className="hover:text-[#6cbda4]">Projects</Link>
           <Link to="/contact" className="hover:text-[#6cbda4]">Contact</Link>
+        
+
         </div>
 
         {/* Mobile Hamburger Icon */}
@@ -51,6 +53,7 @@ const Navbar = () => {
         <Link to="/tech-stack" onClick={closeMenu} className="block py-3 hover:text-[#6cbda4]">Tech Stack</Link>
         <Link to="/projects" onClick={closeMenu} className="block py-3 hover:text-[#6cbda4]">Projects</Link>
         <Link to="/contact" onClick={closeMenu} className="block py-3 hover:text-[#6cbda4]">Contact</Link>
+  
       </div>
     </nav>
   );

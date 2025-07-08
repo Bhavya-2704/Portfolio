@@ -9,6 +9,8 @@ import About from './components/About'
 import { Route, Routes } from 'react-router-dom'
 import { Toaster } from 'react-hot-toast';
 import Whatsapp from './components/Whatsapp'
+import ChatBot from './ChatBot'
+import FloatingChatBot from './FloatingChatBot'
 
 const App = () => {
   return (
@@ -21,7 +23,10 @@ const App = () => {
         <Route path='/about' element={<About />}/>
         <Route path='/contact' element={<Contact />}/>
         <Route path='/whatsapp' element={<Whatsapp />}/>
+        
+        
       </Routes>
+      <FloatingChatBot/>
       <Footer />
       <Toaster />
     </div>
