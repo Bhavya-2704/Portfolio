@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Mail, MapPin, Phone } from "lucide-react";
 import { FaWhatsapp } from "react-icons/fa";
+import ChatBot from "../ChatBot";
 
 const About = () => {
   return (
@@ -65,6 +66,7 @@ const About = () => {
             <MapPin className="text-[#2a9776] size-7" />
             <p className="text-lg font-medium text-gray-800">Ghaziabad, India</p>
           </div>
+          
         </motion.div>
       </div>
     </section>
